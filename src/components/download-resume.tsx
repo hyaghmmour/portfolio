@@ -7,7 +7,7 @@ import saveAs from "file-saver";
 export function DownloadResume() {
   // const downloadPdf = () => {
     const downloadPdf = () => {
-      const pdfUrl = 'https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/resume.pdf';
+      const pdfUrl = 'https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/Hamza_Yaghmmour_Resume.pdf';
     
       fetch(pdfUrl, { mode: 'no-cors' })
       .then(() => {
