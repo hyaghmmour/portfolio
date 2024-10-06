@@ -2,25 +2,23 @@
 
 import confetti from "canvas-confetti";
 import { RainbowButton } from "@/components/ui/rainbow-button";
-import { saveAs } from "file-saver";
+import saveAs from "file-saver";
 
 export function DownloadResume() {
   const downloadPdf = () => {
-    const pdfUrl = 'https://rxresu.me/hyaghmmour/resume';  // The path to the PDF in the public folder
-
-    // Initiating file download
-    return fetch(pdfUrl)
+    const pdfUrl = 'https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/resume.pdf';
+  
+    // Fetching the PDF file from the URL
+    fetch(pdfUrl, { mode: 'no-cors' })
       .then((response) => response.blob())
       .then((blob) => {
-        saveAs(blob, 'Hamza_Yaghmmour_Resume.pdf');  // Save the file using file-saver
-        return Promise.resolve();  // Return a resolved promise once the download starts
+        // Save the file using file-saver and rename it
+        saveAs(blob, 'Hamza_Yaghmmour_Resume.pdf');  // Custom filename
       })
       .catch((error) => {
         console.error('Error fetching the PDF:', error);
-        return Promise.reject(error);  // Return a rejected promise if there's an error
       });
   };
-
   const handleConfetti = () => {
     const duration = 5 * 1000; // Duration of confetti animation in milliseconds
     const animationEnd = Date.now() + duration;
