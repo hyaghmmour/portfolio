@@ -75,7 +75,7 @@ export const DATA = {
       location: "Annapolis Junction, MD",
       title: "Software Engineer II",
       logoUrl: "/portfolio/boeing.png",
-      start: "March 2023",
+      start: "Mar 2023",
       end: "Present",
       description:
         "I spearheaded several internal projects, including groundbreaking GenAI initiatives and the development of a cloud suite leveraging Kubernetes, RabbitMQ, gRPC, and Terraform, all in full compliance with contractual obligations. I mentored interns across various technical disciplines, helping accelerate their professional growth and ensuring their active contribution to key projects. Additionally, I implemented Ansible for configuration management and Docker for containerization, optimizing system provisioning and application deployment across development, testing, and production environments.",
@@ -87,8 +87,8 @@ export const DATA = {
       location: "Annapolis Junction, MD",
       title: "Software Engineer I",
       logoUrl: "/portfolio/boeing.png",
-      start: "June 2022",
-      end: "March 2023",
+      start: "Jun 2022",
+      end: "Mar 2023",
       description:
         "I designed and developed an entity-extraction application using NLP libraries and tools, enhancing virus detection capabilities. I integrated SpaCy for advanced NLP processing and implemented Jenkins as a CI/CD pipeline, automating the build, test, and deployment processes for rapid code delivery.",
     },
@@ -99,7 +99,7 @@ export const DATA = {
       location: "Detroit, MI",
       title: "Software Engineer I",
       logoUrl: "/portfolio/al.jpeg",
-      start: "December 2021",
+      start: "Dec 2021",
       end: "May 2022",
       description:
         "I conducted comprehensive testing for a React application, including unit, integration, and user acceptance tests. I developed and maintained features in compliance with FAA regulations to optimize drone pathing. Thriving in a startup environment, I contributed to rapid growth by delivering high-quality features on tight schedules and collaborating across cross-functional teams.",
@@ -111,8 +111,8 @@ export const DATA = {
       location: "Annapolis Junction, MD",
       title: "Software Engineer Intern",
       logoUrl: "/portfolio/boeing.png",
-      start: "June 2021",
-      end: "August 2021",
+      start: "Jun 2021",
+      end: "Aug 2021",
       description:
         "Collaborated with a cohort of interns to design and implement an efficient solution to extract and tokenize valuable information from a multitude of documents with NLP technologies. Leveraging tools such as ElasticSearch, AWS, and Jenkins.",
     },
@@ -123,7 +123,7 @@ export const DATA = {
       location: "Ann Arbor, MI",
       title: "Software Engineer Intern",
       logoUrl: "/portfolio/hcm.png",
-      start: "September 2020",
+      start: "Sep 2020",
       end: "May 2021",
       description:
         "Worked closely with leadership to learn efficient debugging practices. Created scripts with Python3 to effectively streamline creation of slideshow presentations.",
@@ -168,7 +168,7 @@ export const DATA = {
     {
       title: "Vaccess.io",
       href: "https://devpost.com/software/vaccess-io",
-      dates: "March 2020 - June 2020",
+      dates: "Mar 2020 - Jun 2020",
       active: true,
       description:
         "Developed, designed and implemented an efficient mock solution for a unique way to handle vaccine distribution during Covid-19.",
@@ -189,13 +189,13 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/vaccess.jpg",
+      image: "/portfolio/vaccess.jpg",
       video: "",
     },
     {
       title: "Student Spot",
       href: "https://devpost.com/software/student-spot",
-      dates: "April 2021",
+      dates: "Apr 2021",
       active: true,
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
@@ -222,7 +222,7 @@ export const DATA = {
   hackathons: [
     {
       title: "GMU Hackathon",
-      dates: "March 2022",
+      dates: "Mar 2022",
       location: "San Francisco, California",
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
@@ -233,7 +233,7 @@ export const DATA = {
     },
     {
       title: "Hack The Pandemic",
-      dates: "March 2021",
+      dates: "Mar 2021",
       location: "Stockholm, Sweden",
       description:
         "Designed and developed a unique way to predict the spread of Covid-19.",
@@ -253,7 +253,7 @@ export const DATA = {
     },
     {
       title: "Luminata Covid-19 Global AI Hackathon",
-      dates: "April 2020",
+      dates: "Apr 2020",
       location: "Global",
       description:
         "Developed a solution that effectively destributed Covid-19 vaccines based off demographic data.",
@@ -264,7 +264,7 @@ export const DATA = {
     },
     {
       title: "IBM Call For Code",
-      dates: "March 2020",
+      dates: "Mar 2020",
       location: "Remote - USA",
       description:
         "Developed an effective analytics solution for predicting severity of Covid-19 spread leveraging only IBM Cloud Technologies.",
@@ -278,7 +278,7 @@ export const DATA = {
   certifications: [
     {
       title: "AWS Certified Solutions Architect - Associate",
-      period: "July 2024",
+      period: "Jul 2024",
       // end: "",
       logo: "/portfolio/aws.png",
     },
