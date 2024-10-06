@@ -32,7 +32,10 @@ export const DATA = {
     "AWS",
     "NLP", 
     "GenAI", 
-    "Java"
+    "Java", 
+    "Amazon SQS", 
+    "AWS Neptune", 
+    "Amazon EC2", 
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
