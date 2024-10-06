@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 
 export function DownloadResume() {
   const downloadPdf = () => {
-    const pdfUrl = '/resume.pdf';  // The path to the PDF in the public folder
+    const pdfUrl = 'https://rxresu.me/hyaghmmour/resume';  // The path to the PDF in the public folder
 
     // Initiating file download
     return fetch(pdfUrl)
@@ -54,8 +54,8 @@ export function DownloadResume() {
     <div className="relative">
       <RainbowButton
         onClick={async () => {
-          handleConfetti();  // Start the confetti after 3 seconds
-
+          const l = handleConfetti();  // Start the confetti after 3 seconds
+          console.log({l})
           // Adding a timeout to simulate file download completion
           setTimeout(async () => {
             await downloadPdf();  // Wait for the file download to start
