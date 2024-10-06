@@ -36,6 +36,7 @@ export const DATA = {
     "Amazon SQS", 
     "AWS Neptune", 
     "Amazon EC2", 
+    "Oauth2.0"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
