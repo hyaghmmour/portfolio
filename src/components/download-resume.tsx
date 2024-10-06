@@ -5,20 +5,16 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
 import saveAs from "file-saver";
 
 export function DownloadResume() {
-  const downloadPdf = () => {
-    const pdfUrl = 'https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/resume.pdf';
-  
-    // Fetching the PDF file from the URL
-    fetch(pdfUrl, { mode: 'no-cors' })
-      .then((response) => response.blob())
-      .then((blob) => {
-        // Save the file using file-saver and rename it
-        saveAs(blob, 'Hamza_Yaghmmour_Resume.pdf');  // Custom filename
-      })
-      .catch((error) => {
-        console.error('Error fetching the PDF:', error);
+  // const downloadPdf = () => {
+    const downloadPdf = () => {
+      const pdfUrl = 'https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/resume.pdf';
+    
+      fetch(pdfUrl, { mode: 'no-cors' })
+      .then(() => {
+        window.location.href = pdfUrl;
       });
-  };
+    };
+
   const handleConfetti = () => {
     const duration = 5 * 1000; // Duration of confetti animation in milliseconds
     const animationEnd = Date.now() + duration;
