@@ -12,7 +12,7 @@ export const DATA = {
   description: "Passionate About Tech, Driven by Results",
   summary:
     "I'm a Full Stack Software Engineer specializing in mobile and web development, with a focus on infrastructure automation. I've led projects in GenAI at Boeing and financial inclusion platforms like MoneyFlap, excelling in technologies like React.js, Flutter, Node.js, GoLang, and AWS.",
-  avatarUrl: "/portfolio/profile.jpg",
+  avatarUrl: "/profile.jpg",
   skills: [
     "React.js",
     "Node.js",
@@ -74,7 +74,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer II",
-      logoUrl: "/portfolio/boeing.png",
+      logoUrl: "/boeing.png",
       start: "Mar 2023",
       end: "Present",
       description:
@@ -86,7 +86,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer I",
-      logoUrl: "/portfolio/boeing.png",
+      logoUrl: "/boeing.png",
       start: "Jun 2022",
       end: "Mar 2023",
       description:
@@ -98,7 +98,7 @@ export const DATA = {
       badges: [],
       location: "Detroit, MI",
       title: "Software Engineer I",
-      logoUrl: "/portfolio/al.jpeg",
+      logoUrl: "/al.jpeg",
       start: "Dec 2021",
       end: "May 2022",
       description:
@@ -110,7 +110,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer Intern",
-      logoUrl: "/portfolio/boeing.png",
+      logoUrl: "/boeing.png",
       start: "Jun 2021",
       end: "Aug 2021",
       description:
@@ -122,7 +122,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, MI",
       title: "Software Engineer Intern",
-      logoUrl: "/portfolio/hcm.png",
+      logoUrl: "/hcm.png",
       start: "Sep 2020",
       end: "May 2021",
       description:
@@ -134,7 +134,7 @@ export const DATA = {
       school: "George Mason University",
       href: "https://www.gmu.edu/",
       degree: "B.S. Computer Science",
-      logoUrl: "/portfolio/gmu.png",
+      logoUrl: "/gmu.png",
       start: "",
       end: "",
     },
@@ -161,7 +161,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/portfolio/mf.png",
+      image: "/mf.png",
       video:
         "",
     },
@@ -189,7 +189,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/portfolio/vaccess.jpg",
+      image: "/vaccess.jpg",
       video: "",
     },
     {
@@ -215,7 +215,7 @@ export const DATA = {
         },
         
       ],
-      image: "/portfolio/ss.png",
+      image: "/ss.png",
       video: "",
     },
   ],
@@ -226,7 +226,7 @@ export const DATA = {
       location: "San Francisco, California",
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
-      image: "/portfolio/gmu.png",
+      image: "/gmu.png",
       links: [
 
       ],
@@ -247,7 +247,7 @@ export const DATA = {
       location: "Lagos, Nigeria",
       description:
         "Developed an EMR Solution in Nigeria for streamlining communication between patients and doctors, without risking infection.",
-      image: "/portfolio/mit.png",
+      image: "/mit.png",
       mlh: "",
       links: [],
     },
@@ -269,7 +269,7 @@ export const DATA = {
       description:
         "Developed an effective analytics solution for predicting severity of Covid-19 spread leveraging only IBM Cloud Technologies.",
       icon: "public",
-      image: "/portfolio/ibm.jpg",
+      image: "/ibm.jpg",
       links: [],
     },
 
@@ -280,13 +280,13 @@ export const DATA = {
       title: "AWS Certified Solutions Architect - Associate",
       period: "Jul 2024",
       // end: "",
-      logo: "/portfolio/aws.png",
+      logo: "/aws.png",
     },
     {
       title: "AWS Certified Cloud Practitioner",
       period: "March 2023",
       // end: "March 2026",
-      logo: "/portfolio/aws.png",
+      logo: "/aws.png",
     },
   ],
 } as const;
