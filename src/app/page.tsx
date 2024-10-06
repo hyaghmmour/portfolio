@@ -149,7 +149,7 @@ export default function Page() {
                   Personal Projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                 From FinTech to EdTech, I love creating meaningful solutions to the world's most important problems.
+                 From FinTech to EdTech, I love creating meaningful solutions to the world`&apos;s most important problems.
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I love creating impact-driven solutions, participating in{" "}
-                  {DATA.hackathons.length}+ hackathons. I've had the pleasure of knowing and working with some of the brightest people across the world.
+                  {DATA.hackathons.length}+ hackathons. I`&apos;ve had the pleasure of knowing and working with some of the brightest people across the world.
                 </p>
               </div>
             </div>
