@@ -54,12 +54,12 @@ export function DownloadResume() {
     <div className="relative">
       <RainbowButton
         onClick={async () => {
-          await downloadPdf();  // Wait for the file download to start
-          
+          handleConfetti();  // Start the confetti after 3 seconds
+
           // Adding a timeout to simulate file download completion
-          setTimeout(() => {
-            handleConfetti();  // Start the confetti after 3 seconds
-          }, 3000);  // Adjust the delay based on an estimated file download time
+          setTimeout(async () => {
+            await downloadPdf();  // Wait for the file download to start
+          }, 2000);  // Adjust the delay based on an estimated file download time
         }}
       >
         Download
