@@ -62,7 +62,7 @@ export function DownloadResume() {
           }, 2000);  // Adjust the delay based on an estimated file download time
         }}
       >
-        Download
+        Resume
       </RainbowButton>
     </div>
   );
