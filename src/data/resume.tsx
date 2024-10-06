@@ -1,6 +1,10 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 export const DATA = {
   name: "Hamza Yaghmmour",
   initials: "HY",
@@ -10,7 +14,7 @@ export const DATA = {
   description: "Passionate About Tech, Driven by Results",
   summary:
     "I'm a Full Stack Software Engineer specializing in mobile and web development, with a focus on infrastructure automation. I've led projects in GenAI at Boeing and financial inclusion platforms like MoneyFlap, excelling in technologies like React.js, Flutter, Node.js, GoLang, and AWS.",
-  avatarUrl: "/profile.jpg",
+  avatarUrl: `${prefix}/profile.jpg`,
   skills: [
     "React.js",
     "Node.js",
@@ -72,7 +76,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer II",
-      logoUrl: "/boeing.png",
+      logoUrl: `${prefix}/boeing.png`,
       start: "March 2023",
       end: "Present",
       description:
@@ -84,7 +88,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer I",
-      logoUrl: "/boeing.png",
+      logoUrl: `${prefix}/boeing.png`,
       start: "June 2022",
       end: "March 2023",
       description:
@@ -96,7 +100,7 @@ export const DATA = {
       badges: [],
       location: "Detroit, MI",
       title: "Software Engineer I",
-      logoUrl: "/al.jpeg",
+      logoUrl: `${prefix}/ai.jpeg`,
       start: "December 2021",
       end: "May 2022",
       description:
@@ -108,7 +112,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer Intern",
-      logoUrl: "/boeing.png",
+      logoUrl: `${prefix}/boeing.png`,
       start: "June 2021",
       end: "August 2021",
       description:
@@ -120,7 +124,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, MI",
       title: "Software Engineer Intern",
-      logoUrl: "/hcm.png",
+      logoUrl:`${prefix}/hcm.png`,
       start: "September 2020",
       end: "May 2021",
       description:
@@ -132,7 +136,7 @@ export const DATA = {
       school: "George Mason University",
       href: "https://www.gmu.edu/",
       degree: "B.S. Computer Science",
-      logoUrl: "/gmu.png",
+      logoUrl: `${prefix}/gmu.png`,
       start: "",
       end: "",
     },
@@ -159,7 +163,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/mf.png",
+      image: `${prefix}/mf.png`,
       video:
         "",
     },
@@ -187,7 +191,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/vaccess.jpg",
+      image: `${prefix}/vaccess.jpg`,
       video: "",
     },
     {
@@ -213,7 +217,7 @@ export const DATA = {
         },
         
       ],
-      image: "/ss.png",
+      image: `${prefix}/ss.png`,
       video: "",
     },
   ],
@@ -224,7 +228,7 @@ export const DATA = {
       location: "San Francisco, California",
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
-      image: "/gmu.png",
+      image: `${prefix}/gmu.png`,
       links: [
 
       ],
@@ -245,7 +249,7 @@ export const DATA = {
       location: "Lagos, Nigeria",
       description:
         "Developed an EMR Solution in Nigeria for streamlining communication between patients and doctors, without risking infection.",
-      image: "/mit.png",
+      image: `${prefix}/mit.png`,
       mlh: "",
       links: [],
     },
@@ -267,7 +271,7 @@ export const DATA = {
       description:
         "Developed an effective analytics solution for predicting severity of Covid-19 spread leveraging only IBM Cloud Technologies.",
       icon: "public",
-      image: "/ibm.jpg",
+      image: `${prefix}/ibm.png`,
       links: [],
     },
 
@@ -278,13 +282,13 @@ export const DATA = {
       title: "AWS Certified Solutions Architect - Associate",
       period: "July 2024",
       // end: "",
-      logo: "/aws.png",
+      logo: `${prefix}/aws.png`,
     },
     {
       title: "AWS Certified Cloud Practitioner",
       period: "March 2023",
       // end: "March 2026",
-      logo: "/aws.png",
+      logo: `${prefix}/aws.png`,
     },
   ],
 } as const;
