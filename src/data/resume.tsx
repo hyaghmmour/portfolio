@@ -78,7 +78,7 @@ export const DATA = {
       start: "Mar 2023",
       end: "Present",
       description:
-        "I spearheaded several internal projects, including groundbreaking GenAI initiatives and the development of a cloud suite leveraging Kubernetes, RabbitMQ, gRPC, and Terraform, all in full compliance with contractual obligations. I mentored interns across various technical disciplines, helping accelerate their professional growth and ensuring their active contribution to key projects. Additionally, I implemented Ansible for configuration management and Docker for containerization, optimizing system provisioning and application deployment across development, testing, and production environments.",
+        "Designed and devloped core infrastructure for cloud automation suite using tools such as Terraform, RabbitMQ, AWS, Go, and Ansible, reducing cloud deployment time by 75% while still remaining compliant in accordance to government contracts. Managed and mentored a cohort of interns for internal GenAI intiatives, helping them write cleaner and more production ready code.",
     },
     {
       company: "Boeing Intelligence & Analytics",
@@ -90,7 +90,7 @@ export const DATA = {
       start: "Jun 2022",
       end: "Mar 2023",
       description:
-        "I designed and developed an entity-extraction application using NLP libraries and tools, enhancing virus detection capabilities. I integrated SpaCy for advanced NLP processing and implemented Jenkins as a CI/CD pipeline, automating the build, test, and deployment processes for rapid code delivery.",
+        "Spearheaded NLP initiatives by leveraging and optimizing libraries such as SpaCy for efficient entity extraction and tokenization of large quanities of documents. Collaborated with other engineers to create an automated pipeline for virus detection software leveraging LLMs and graphical databases such as AWS Neptune.",
     },
     {
       company: "Airspace Link",
@@ -102,7 +102,7 @@ export const DATA = {
       start: "Dec 2021",
       end: "May 2022",
       description:
-        "I conducted comprehensive testing for a React application, including unit, integration, and user acceptance tests. I developed and maintained features in compliance with FAA regulations to optimize drone pathing. Thriving in a startup environment, I contributed to rapid growth by delivering high-quality features on tight schedules and collaborating across cross-functional teams.",
+        "Collaborated with sentior engineers to understand and implement drone flight patterns compliant with the FAA. Optimized UAT testing in React, leveraging Jest and snapshot testing procedures.",
     },
     {
       company: "Boeing Intelligence & Analytics",
@@ -114,7 +114,7 @@ export const DATA = {
       start: "Jun 2021",
       end: "Aug 2021",
       description:
-        "Collaborated with a cohort of interns to design and implement an efficient solution to extract and tokenize valuable information from a multitude of documents with NLP technologies. Leveraging tools such as ElasticSearch, AWS, and Jenkins.",
+        "Participated with a cohort of other interns to create efficient entity extraction software in AWS, designed developed a modern and user-friendly UI with React, and advanced search querying with ElasticSearch",
     },
     {
       company: "HCM Tradeseal",
