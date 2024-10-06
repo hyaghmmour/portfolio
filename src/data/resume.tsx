@@ -12,7 +12,7 @@ export const DATA = {
   description: "Passionate About Tech, Driven by Results",
   summary:
     "I'm a Full Stack Software Engineer specializing in mobile and web development, with a focus on infrastructure automation. I've led projects in GenAI at Boeing and financial inclusion platforms like MoneyFlap, excelling in technologies like React.js, Flutter, Node.js, GoLang, and AWS.",
-  avatarUrl: "/profile.jpg",
+  avatarUrl: "/portfolio/profile.jpg",
   skills: [
     "React.js",
     "Node.js",
@@ -74,7 +74,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer II",
-      logoUrl: "/boeing.png",
+      logoUrl: "/portfolio/boeing.png",
       start: "March 2023",
       end: "Present",
       description:
@@ -86,7 +86,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer I",
-      logoUrl: "/boeing.png",
+      logoUrl: "/portfolio/boeing.png",
       start: "June 2022",
       end: "March 2023",
       description:
@@ -98,7 +98,7 @@ export const DATA = {
       badges: [],
       location: "Detroit, MI",
       title: "Software Engineer I",
-      logoUrl: "/al.jpeg",
+      logoUrl: "/portfolio/al.jpeg",
       start: "December 2021",
       end: "May 2022",
       description:
@@ -110,7 +110,7 @@ export const DATA = {
       badges: [],
       location: "Annapolis Junction, MD",
       title: "Software Engineer Intern",
-      logoUrl: "/boeing.png",
+      logoUrl: "/portfolio/boeing.png",
       start: "June 2021",
       end: "August 2021",
       description:
@@ -122,7 +122,7 @@ export const DATA = {
       badges: [],
       location: "Ann Arbor, MI",
       title: "Software Engineer Intern",
-      logoUrl: "/hcm.png",
+      logoUrl: "/portfolio/hcm.png",
       start: "September 2020",
       end: "May 2021",
       description:
@@ -134,7 +134,7 @@ export const DATA = {
       school: "George Mason University",
       href: "https://www.gmu.edu/",
       degree: "B.S. Computer Science",
-      logoUrl: "/gmu.png",
+      logoUrl: "/portfolio/gmu.png",
       start: "",
       end: "",
     },
@@ -161,7 +161,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/mf.png",
+      image: "/portfolio/mf.png",
       video:
         "",
     },
@@ -215,7 +215,7 @@ export const DATA = {
         },
         
       ],
-      image: "/ss.png",
+      image: "/portfolio/ss.png",
       video: "",
     },
   ],
@@ -226,7 +226,7 @@ export const DATA = {
       location: "San Francisco, California",
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
-      image: "/gmu.png",
+      image: "/portfolio/gmu.png",
       links: [
 
       ],
@@ -247,7 +247,7 @@ export const DATA = {
       location: "Lagos, Nigeria",
       description:
         "Developed an EMR Solution in Nigeria for streamlining communication between patients and doctors, without risking infection.",
-      image: "/mit.png",
+      image: "/portfolio/mit.png",
       mlh: "",
       links: [],
     },
@@ -269,7 +269,7 @@ export const DATA = {
       description:
         "Developed an effective analytics solution for predicting severity of Covid-19 spread leveraging only IBM Cloud Technologies.",
       icon: "public",
-      image: "/ibm.jpg",
+      image: "/portfolio/ibm.jpg",
       links: [],
     },
 
@@ -280,13 +280,13 @@ export const DATA = {
       title: "AWS Certified Solutions Architect - Associate",
       period: "July 2024",
       // end: "",
-      logo: "/aws.png",
+      logo: "/portfolio/aws.png",
     },
     {
       title: "AWS Certified Cloud Practitioner",
       period: "March 2023",
       // end: "March 2026",
-      logo: "/aws.png",
+      logo: "/portfolio/aws.png",
     },
   ],
 } as const;
