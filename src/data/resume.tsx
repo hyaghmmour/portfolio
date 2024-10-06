@@ -29,7 +29,8 @@ export const DATA = {
     "Dart",
     "AWS",
     "NLP", 
-    "GenAI"
+    "GenAI", 
+    "Java"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
