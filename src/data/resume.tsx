@@ -118,7 +118,7 @@ export const DATA = {
       start: "Jun 2021",
       end: "Aug 2021",
       description:
-        "Participated with a cohort of other interns to create efficient entity extraction software in AWS, designed developed a modern and user-friendly UI with React, and advanced search querying with ElasticSearch",
+        "Participated with a cohort of other interns to create efficient entity extraction software in AWS, designed developed a modern and user-friendly UI with React, and advanced search querying with ElasticSearch.",
     },
     {
       company: "HCM Tradeseal",
@@ -227,7 +227,7 @@ export const DATA = {
     {
       title: "GMU Hackathon",
       dates: "Mar 2022",
-      location: "San Francisco, California",
+      location: "Fairfax, Virginia",
       description:
         "Designed and developed an application to help tailor a effective study plan for students by leveraging Artificial Intelligence.",
       image: "/gmu.png",
