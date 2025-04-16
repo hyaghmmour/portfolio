@@ -8,7 +8,7 @@ export const DATA = {
   initials: "HY",
   url: "https://hamzayaghmmour.io",
   location: "Washington, D.C.",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/washingtondc",
   description: "Passionate About Tech, Driven by Results",
   summary:
     "I'm a Full Stack Software Engineer specializing in mobile and web development, with a focus on infrastructure automation. I've led projects in GenAI at Boeing and financial inclusion platforms like MoneyFlap, excelling in technologies like React.js, Flutter, Node.js, GoLang, and AWS.",
@@ -73,6 +73,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Capital One", 
+      href: "https://www.capitalone.com/", 
+      badges: [], 
+      location: "McLean, VA", 
+      title: "Senior Software Engineer", 
+      logoUrl: "/c1.jpeg", 
+      start: "Dec 2024", 
+      end: "Present", 
+      description: "Designed and implemented a tool that optimizes data consumption for other internal services by abstracting uncertainties and specialized skillsets needed for consuming services."
+    },
+    {
       company: "Boeing Intelligence & Analytics",
       href: "https://www.bia-boeing.com/",
       badges: [],
@@ -80,7 +91,7 @@ export const DATA = {
       title: "Software Engineer II",
       logoUrl: "/boeing.png",
       start: "Mar 2023",
-      end: "Present",
+      end: "Dec 2024",
       description:
         "Designed and devloped core infrastructure for cloud automation suite using tools such as Terraform, RabbitMQ, AWS, Go, and Ansible, reducing cloud deployment time by 75% while still remaining compliant in accordance to government contracts. Managed and mentored a cohort of interns for internal GenAI intiatives, helping them write cleaner and more production ready code.",
     },
@@ -108,30 +119,6 @@ export const DATA = {
       description:
         "Collaborated with sentior engineers to understand and implement drone flight patterns compliant with the FAA. Optimized UAT testing in React, leveraging Jest and snapshot testing procedures.",
     },
-    {
-      company: "Boeing Intelligence & Analytics",
-      href: "https://www.bia-boeing.com/",
-      badges: [],
-      location: "Annapolis Junction, MD",
-      title: "Software Engineer Intern",
-      logoUrl: "/boeing.png",
-      start: "Jun 2021",
-      end: "Aug 2021",
-      description:
-        "Participated with a cohort of other interns to create efficient entity extraction software in AWS, designed developed a modern and user-friendly UI with React, and advanced search querying with ElasticSearch.",
-    },
-    {
-      company: "HCM Tradeseal",
-      href: "https://hcmtradeseal.com/",
-      badges: [],
-      location: "Ann Arbor, MI",
-      title: "Software Engineer Intern",
-      logoUrl: "/hcm.png",
-      start: "Sep 2020",
-      end: "May 2021",
-      description:
-        "Worked closely with leadership to learn efficient debugging practices. Created scripts with Python3 to effectively streamline creation of slideshow presentations.",
-    },
   ],
   education: [
     {
@@ -147,7 +134,7 @@ export const DATA = {
     {
       title: "MoneyFlap",
       href: "https://www.moneyflap.com",
-      dates: "Aug 2022 - Present`",
+      dates: "Aug 2022 - Mar 2025",
       active: true,
       description:
         "With the world of finance evolving towards the blockchain, MoneyFlap was created as a way to bridge the gap between underserved and first-world countries. Providing accounts on all EVM chains, global issuance of virtual/physical cards, and deposits, withdraws and transfers available in 180+ countries.",

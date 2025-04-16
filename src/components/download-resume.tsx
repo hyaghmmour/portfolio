@@ -66,7 +66,7 @@ export function DownloadResume() {
   // const downloadPdf = () => {
   const downloadPdf = () => {
     const pdfUrl =
-      "https://storage.rxresu.me/cm1xvq6vx2iwimtv5et9ke33a/resumes/Hamza_Yaghmmour_Resume.pdf";
+      "https://rxresu.me/hyaghmmour/hamza-yaghmmour-resume";
 
     fetch(pdfUrl, { mode: "no-cors" }).then(() => {
       window.location.href = pdfUrl;
