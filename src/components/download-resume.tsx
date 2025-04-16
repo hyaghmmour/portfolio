@@ -4,7 +4,9 @@ import confetti from "canvas-confetti";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import saveAs from "file-saver";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 import AnimatedCircularProgressBar from "@/components/ui/animated-circular-progress-bar";
 
@@ -68,9 +70,7 @@ export function DownloadResume() {
     const pdfUrl =
       "https://rxresu.me/hyaghmmour/hamza-yaghmmour-resume";
 
-    fetch(pdfUrl, { mode: "no-cors" }).then(() => {
-      window.location.href = pdfUrl;
-    });
+    window.open(pdfUrl)
   };
 
  
