@@ -84,6 +84,18 @@ export const DATA = {
       description: "Designed and implemented a tool that optimizes data consumption for other internal services by abstracting uncertainties and specialized skillsets needed for consuming services."
     },
     {
+      company: "MoneyFlap",
+      href: "https://www.moneyflap.com/",
+      badges: [],
+      location: "Newark, DE - Remote",
+      title: "Chief Technology Officer & Co-Founder",
+      logoUrl: "/moneyflap-logo.png",
+      start: "Aug 2022",
+      end: "Dec 2024",
+      description:
+        "Created an international payments platform leveraging the blockchain, aimed at solving discrepencies with international payment availability. Features include, but not limited to; remmittences, bill-payments & airtime topups, crypto-backed debit cards, peer-to-peer transfers, etc.",
+    },
+    {
       company: "Boeing Intelligence & Analytics",
       href: "https://www.bia-boeing.com/",
       badges: [],
@@ -131,31 +143,31 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "MoneyFlap",
-      href: "https://www.moneyflap.com",
-      dates: "Aug 2022 - Mar 2025",
-      active: true,
-      description:
-        "With the world of finance evolving towards the blockchain, MoneyFlap was created as a way to bridge the gap between underserved and first-world countries. Providing accounts on all EVM chains, global issuance of virtual/physical cards, and deposits, withdraws and transfers available in 180+ countries.",
-      technologies: [
-        "Flutter",
-        "Typescript",
-        "PostgreSQL",
-        "Supabase",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.moneyflap.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/mf.png",
-      video:
-        "",
-    },
+    // {
+    //   title: "MoneyFlap",
+    //   href: "https://www.moneyflap.com",
+    //   dates: "Aug 2022 - Mar 2025",
+    //   active: true,
+    //   description:
+    //     "With the world of finance evolving towards the blockchain, MoneyFlap was created as a way to bridge the gap between underserved and first-world countries. Providing accounts on all EVM chains, global issuance of virtual/physical cards, and deposits, withdraws and transfers available in 180+ countries.",
+    //   technologies: [
+    //     "Flutter",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Supabase",
+    //     "Vercel",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://www.moneyflap.com",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/mf.png",
+    //   video:
+    //     "",
+    // },
     {
       title: "Vaccess.io",
       href: "https://devpost.com/software/vaccess-io",
