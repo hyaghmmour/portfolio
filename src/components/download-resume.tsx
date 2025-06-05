@@ -68,7 +68,7 @@ export function DownloadResume() {
   // const downloadPdf = () => {
   const downloadPdf = () => {
     const pdfUrl =
-      "https://rxresu.me/hyaghmmour/hamza-yaghmmour-resume";
+      "https://rxresu.me/hyaghmmour/hamza-yaghmmour-resume-copy";
 
     window.open(pdfUrl)
   };
